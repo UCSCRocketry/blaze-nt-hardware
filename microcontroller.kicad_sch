@@ -8,6 +8,7 @@
 		(title "Microcontroller")
 		(rev "A")
 		(company "UCSC Rocket Team")
+		(comment 1 "Julia Barbera")
 	)
 	(lib_symbols
 		(symbol "power:+3V3"

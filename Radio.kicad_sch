@@ -8,6 +8,7 @@
 		(title "Radio")
 		(rev "A")
 		(company "UCSC Rocket Team")
+		(comment 1 "Victoria Pacheco")
 	)
 	(lib_symbols
 		(symbol "power:+3V3"

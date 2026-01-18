@@ -8,6 +8,7 @@
 		(title "Power Managment")
 		(rev "A")
 		(company "UCSC Rocket Team")
+		(comment 1 "Ruhmit Sahu")
 	)
 	(lib_symbols
 		(symbol "power:+3V3"
@@ -239,7 +240,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 38.1 50.8 180)
+		(at 38.1 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -250,7 +251,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 38.1 57.15 180)
+		(at 38.1 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -261,7 +262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 57.15 0)
+		(at 38.1 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -270,7 +271,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e140856-d7ba-46ad-8326-c7a89bfd4669")
 		(property "Reference" "#PWR06"
-			(at 38.1 63.5 0)
+			(at 38.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,7 +280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 62.23 0)
+			(at 38.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 57.15 0)
+			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 57.15 0)
+			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 57.15 0)
+			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +328,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 38.1 50.8 0)
+		(at 38.1 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -336,7 +337,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0157114-4fe2-486e-90d7-b33d1caf36b4")
 		(property "Reference" "#PWR05"
-			(at 38.1 54.61 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +346,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 38.1 45.72 0)
+			(at 38.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -353,7 +354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 50.8 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 50.8 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 38.1 50.8 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

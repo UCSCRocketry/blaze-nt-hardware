@@ -8,6 +8,8 @@
 		(title "Sensors")
 		(rev "A")
 		(company "UCSC Rocket Team")
+		(comment 1 "Hunter Sanjabi")
+		(comment 2 "Rachelle Wang")
 	)
 	(lib_symbols
 		(symbol "power:+3V3"
