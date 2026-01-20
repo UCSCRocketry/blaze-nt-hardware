@@ -1187,29 +1187,9 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
-			(at 114.3 66.04 180)
-			(uuid "171b511d-5f0f-4951-9eff-9d7538a1a7c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "INT_RADIO" input
 			(at 114.3 86.36 180)
 			(uuid "d1fa749b-4b9f-447f-9374-cecc2e2a52e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V" input
-			(at 114.3 68.58 180)
-			(uuid "c3adbce3-f7cb-44c8-83d7-e57e0623be03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,6 +1307,26 @@
 				(justify left)
 			)
 		)
+		(pin "+5V" input
+			(at 114.3 68.58 180)
+			(uuid "3c44643c-1d84-4dc4-a052-a425f08d612b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" input
+			(at 114.3 66.04 180)
+			(uuid "1f9921ec-ab24-43c4-8890-bee5dbe12d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c"
@@ -1380,9 +1380,9 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
+		(pin "+3V3" input
 			(at 152.4 104.14 180)
-			(uuid "d47e5a73-aac1-4a5c-9ae2-0f20cc040986")
+			(uuid "9267bc55-5a92-46ad-b79b-c46ac7691b9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,9 +1443,9 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
+		(pin "+3V3" input
 			(at 152.4 66.04 180)
-			(uuid "4d65f0e9-c439-42cd-83f5-e008485d7fce")
+			(uuid "70b4bafe-7f2f-4828-8b40-aaea5d4e38b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,16 +1496,6 @@
 				(hide yes)
 			)
 		)
-		(pin "3V3" input
-			(at 114.3 104.14 180)
-			(uuid "1b4bd04f-89ae-47f1-9580-67d992701481")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GND" input
 			(at 139.7 124.46 0)
 			(uuid "fe61e6b2-396a-4b14-ba7e-4dc02e61b067")
@@ -1514,6 +1504,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 114.3 104.14 180)
+			(uuid "4c7598db-4220-409c-a452-dbee2cd3bb3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

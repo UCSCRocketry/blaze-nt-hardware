@@ -6222,7 +6222,7 @@
 		)
 		(uuid "3454a9ab-c22a-4780-b56f-77888a8b43ca")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "+5V"
 		(shape input)
 		(at 44.45 38.1 180)
 		(effects
@@ -6288,7 +6288,7 @@
 		)
 		(uuid "7ffa4f35-5b8d-45cc-bf4b-5dfcffd035ec")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 38.1 38.1 180)
 		(effects

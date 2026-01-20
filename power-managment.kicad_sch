@@ -238,7 +238,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 38.1 38.1 180)
 		(effects
