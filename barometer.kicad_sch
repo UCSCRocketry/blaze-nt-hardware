@@ -4,5 +4,9 @@
 	(generator_version "9.0")
 	(uuid "cf988028-ce50-4edc-b17a-ca0c4de6dad3")
 	(paper "A4")
+	(title_block
+		(title "Barometer")
+		(company "UCSC Rocket Team")
+	)
 	(lib_symbols)
 )

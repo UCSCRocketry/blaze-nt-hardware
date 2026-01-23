@@ -4,5 +4,9 @@
 	(generator_version "9.0")
 	(uuid "5bab6bfb-97f2-495e-aa81-158e4259dbfc")
 	(paper "A4")
+	(title_block
+		(title "Accelerometer")
+		(company "UCSC Rocket Team")
+	)
 	(lib_symbols)
 )

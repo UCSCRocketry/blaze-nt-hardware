@@ -4,5 +4,9 @@
 	(generator_version "9.0")
 	(uuid "37650d82-d306-46ef-8a8d-d4bfeb88531f")
 	(paper "A4")
+	(title_block
+		(title "IMU")
+		(company "UCSC Rocket Team")
+	)
 	(lib_symbols)
 )
