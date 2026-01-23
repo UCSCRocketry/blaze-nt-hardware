@@ -393,4 +393,130 @@
 			)
 		)
 	)
+	(sheet
+		(at 113.03 63.5)
+		(size 29.21 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6214bd7c-f0f2-4cad-9d95-7bb7bb29e083")
+		(property "Sheetname" "IMU"
+			(at 113.03 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 113.03 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/b9b0c40a-7771-4bc1-adbf-abe0201c34d0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 63.5)
+		(size 29.21 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a6553ac-59f7-4d16-afa0-9743f2c46ffa")
+		(property "Sheetname" "Accelerometer"
+			(at 148.59 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accelerometer.kicad_sch"
+			(at 148.59 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/b9b0c40a-7771-4bc1-adbf-abe0201c34d0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 63.5)
+		(size 29.21 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ad84ef5-c94d-4ded-9701-2036daea17e6")
+		(property "Sheetname" "Barometer"
+			(at 77.47 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barometer.kicad_sch"
+			(at 77.47 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/b9b0c40a-7771-4bc1-adbf-abe0201c34d0"
+					(page "7")
+				)
+			)
+		)
+	)
 )
