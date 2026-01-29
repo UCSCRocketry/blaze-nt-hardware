@@ -240,7 +240,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 38.1 38.1 180)
+		(at 99.06 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -251,7 +251,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 38.1 44.45 180)
+		(at 99.06 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -262,7 +262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 44.45 0)
+		(at 99.06 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -270,8 +270,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28cdf4b6-bf49-445f-b6d0-8b59fa6bfeff")
-		(property "Reference" "#PWR044"
-			(at 38.1 50.8 0)
+		(property "Reference" "#PWR?"
+			(at 99.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 49.53 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 44.45 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 44.45 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -306,7 +306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 44.45 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,6 +318,12 @@
 			(uuid "989c1725-292f-4887-bef4-ee1c82529282")
 		)
 		(instances
+			(project "Radio"
+				(path "/12e39877-80e8-480e-857d-0f6edf0cae76"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
 					(reference "#PWR044")
@@ -328,7 +334,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 38.1 38.1 0)
+		(at 99.06 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -336,8 +342,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "579f4f29-cea8-4187-990d-6dfc31eed3d4")
-		(property "Reference" "#PWR043"
-			(at 38.1 41.91 0)
+		(property "Reference" "#PWR?"
+			(at 99.06 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +352,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 38.1 33.02 0)
+			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 38.1 0)
+			(at 99.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,7 +369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 38.1 0)
+			(at 99.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -372,7 +378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 38.1 38.1 0)
+			(at 99.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,6 +390,12 @@
 			(uuid "2539aeb6-e83f-48e2-9002-9a63250821d5")
 		)
 		(instances
+			(project "Radio"
+				(path "/12e39877-80e8-480e-857d-0f6edf0cae76"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
 					(reference "#PWR043")
@@ -392,4 +404,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
