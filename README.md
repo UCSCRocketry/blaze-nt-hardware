@@ -94,6 +94,38 @@ conflicts occur:
 3. **Branch Strategy**: Use feature branches for significant changes
 4. **Regular Integration**: Team lead regularly integrates subteam changes
 
+#### Resolving Merge Conflicts with Schematics
+
+When pulling changes from main and conflicts occur in schematic files, you may need to choose which version to keep:
+
+**To keep your branch's version of a schematic:**
+
+```bash
+# After git pull results in conflicts
+git checkout --ours <schematic-file>.kicad_sch
+git add <schematic-file>.kicad_sch
+git commit -m "Resolve merge conflict: keep branch version of <schematic-file>"
+```
+
+**To keep the main branch's version of a schematic:**
+
+```bash
+# After git pull results in conflicts  
+git checkout --theirs <schematic-file>.kicad_sch
+git add <schematic-file>.kicad_sch
+git commit -m "Resolve merge conflict: use main version of <schematic-file>"
+```
+
+**Example for power team keeping their version:**
+
+```bash
+git checkout --ours power-managment.kicad_sch
+git add power-managment.kicad_sch
+git commit -m "Resolve merge conflict: keep branch version of power-managment schematic"
+```
+
+**Important**: Always communicate with the team lead before resolving conflicts to ensure important changes aren't lost.
+
 ### Git Workflow
 
 ```bash
