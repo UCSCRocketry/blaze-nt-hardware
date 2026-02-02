@@ -103,6 +103,11 @@ git clone --recurse-submodules <repository-url>
 # Or initialize submodules after cloning
 git submodule update --init --recursive
 
+# If submodule isn't working, clone directly into avionics-library folder:
+cd avionics-library
+git clone https://github.com/UCSCRocketry/avionics-library.git .
+cd ..
+
 # Create feature branch for subsystem changes
 git checkout -b feature/power-improvements
 
@@ -117,7 +122,7 @@ git push origin feature/power-improvements
 
 ### Prerequisites
 
-- KiCad 6.0 or later
+- KiCad 9.0 or later
 - Git for version control
 
 ### Opening the Project
