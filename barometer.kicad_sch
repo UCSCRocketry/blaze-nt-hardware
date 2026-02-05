@@ -693,7 +693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 60.96 0)
 			(effects
 				(font
@@ -893,7 +893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Avionics_Feet:XDCR_MS561101BA03-50"
 			(at 115.57 90.17 0)
 			(effects
 				(font

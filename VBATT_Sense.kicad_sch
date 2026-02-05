@@ -1108,7 +1108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VSSOP10_DGS_TEX"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 119.126 49.022 0)
 			(effects
 				(font
@@ -1204,7 +1204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -1281,7 +1281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Shunt_Ohmite_LVK24"
 			(at 135.128 60.96 90)
 			(effects
 				(font

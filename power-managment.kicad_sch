@@ -1091,7 +1091,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Small"
+		(symbol "Device:D_Schottky_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1111,8 +1111,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1138,7 +1138,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode, small symbol"
+			(property "Description" "Schottky diode, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1147,25 +1147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1183,13 +1165,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Small_0_1"
+			(symbol "D_Schottky_Small_0_1"
 				(polyline
 					(pts
-						(xy -0.762 0) (xy 0.762 0)
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1198,10 +1180,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
+						(xy -0.762 0) (xy 0.762 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1221,7 +1203,7 @@
 					)
 				)
 			)
-			(symbol "D_Small_1_1"
+			(symbol "D_Schottky_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -1803,12 +1785,6 @@
 		(uuid "4550bd69-d85a-4711-aed5-73f0af077550")
 	)
 	(junction
-		(at 55.88 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "457cfac2-b6c0-4d6d-92d3-40b58e2d1161")
-	)
-	(junction
 		(at 132.08 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1819,6 +1795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7340437b-e43b-43ee-8afd-334c2010d068")
+	)
+	(junction
+		(at 55.88 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7890d1e2-e426-42c3-a38b-6c63bb28f798")
 	)
 	(junction
 		(at 142.24 58.42)
@@ -2008,6 +1990,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 90.17) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475b9908-a681-4e95-acdb-dce0e22e441a")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 55.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9d3a7a-5766-4c49-a6b7-3b87b8b900e6")
+	)
+	(wire
+		(pts
 			(xy 125.73 66.04) (xy 125.73 63.5)
 		)
 		(stroke
@@ -2025,16 +2027,6 @@
 			(type default)
 		)
 		(uuid "5728c11a-6c0c-4c91-b07b-1f842dd0c25b")
-	)
-	(wire
-		(pts
-			(xy 55.88 68.58) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b80796f-69ea-41b5-9573-d35e779fdb6d")
 	)
 	(wire
 		(pts
@@ -2058,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 59.69 90.17)
+			(xy 50.8 90.17) (xy 55.88 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2165,16 +2157,6 @@
 			(type default)
 		)
 		(uuid "92b06042-5b20-44e6-95c3-c027d572404e")
-	)
-	(wire
-		(pts
-			(xy 50.8 90.17) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c7e670-9308-424e-aff0-299329bd776d")
 	)
 	(wire
 		(pts
@@ -2365,6 +2347,16 @@
 			(type default)
 		)
 		(uuid "f5c68415-4eef-4412-be7a-5d46b03f6b2b")
+	)
+	(wire
+		(pts
+			(xy 55.88 68.58) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe9704c-b699-4086-abe1-15d8cadb1bca")
 	)
 	(wire
 		(pts
@@ -2670,91 +2662,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 48.26 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fd5e959-db46-4af1-8f86-a20d20a4118c")
-		(property "Reference" "D3"
-			(at 48.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 48.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 48.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 48.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afa62568-38fb-4f45-9fe5-a6a8d8736398")
-		)
-		(pin "2"
-			(uuid "cc0d6b14-3eca-496b-bd66-ed620a5fbfba")
-		)
-		(instances
-			(project ""
-				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 60.96 0)
 		(mirror y)
@@ -2852,7 +2759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.436 59.944 90)
 			(effects
 				(font
@@ -2895,6 +2802,73 @@
 			(project "power-managment"
 				(path "/4a897c16-693b-45fb-822c-5a4e67f889c4"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 48.26 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4de85d2d-575d-4df5-910b-53dfb10e2583")
+		(property "Reference" "D5"
+			(at 48.514 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A"
+			(at 48.514 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 48.26 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 48.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0a09242-71ba-4da9-84d7-027194bba328")
+		)
+		(pin "1"
+			(uuid "2faa1b24-57f2-4b8d-a4de-f58e13deb8a4")
+		)
+		(instances
+			(project ""
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3001,7 +2975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.2748 78.74 0)
 			(effects
 				(font
@@ -3077,7 +3051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.636 57.404 90)
 			(effects
 				(font
@@ -3297,7 +3271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.154 56.896 90)
 			(effects
 				(font
@@ -3442,7 +3416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Avionics_Feet:MPM3610QGV-P"
 			(at 113.792 36.576 0)
 			(effects
 				(font
@@ -3535,6 +3509,75 @@
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 55.88 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ac75de4-4324-410b-a078-fd22dd36fe45")
+		(property "Reference" "D3"
+			(at 51.054 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1A"
+			(at 51.054 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 55.88 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fdadd0c-05be-4da2-b478-43a2ca3b0898")
+		)
+		(pin "1"
+			(uuid "9faccde4-800d-4c01-9ee3-7e6b67ad26c9")
+		)
+		(instances
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3866,7 +3909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -3942,7 +3985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.796 57.404 90)
 			(effects
 				(font
@@ -4088,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.056 59.944 90)
 			(effects
 				(font

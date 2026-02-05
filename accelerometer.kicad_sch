@@ -1037,7 +1037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 67.31 0)
 			(effects
 				(font
@@ -1173,7 +1173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 67.31 0)
 			(effects
 				(font
@@ -1373,7 +1373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 77.47 53.34 0)
 			(effects
 				(font
