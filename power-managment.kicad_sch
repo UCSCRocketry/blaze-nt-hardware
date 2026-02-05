@@ -2473,7 +2473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05c09cb1-93aa-472b-a2ce-54141c5b0b2b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR050"
 			(at 40.64 29.21 0)
 			(effects
 				(font
@@ -2523,7 +2523,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR014")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2540,7 +2540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e140856-d7ba-46ad-8326-c7a89bfd4669")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 142.24 85.09 0)
 			(effects
 				(font
@@ -2590,7 +2590,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR061")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e140856-d7ba-46ad-8326-c7a89bfd466a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR052"
 			(at 45.72 39.37 0)
 			(effects
 				(font
@@ -2663,7 +2663,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR054")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2764,7 +2764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28e970bf-8ded-4265-98a2-56fdd3174206")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR056"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -2814,7 +2814,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR058")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2836,7 +2836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38c06e79-bd1e-44c9-9822-7d7293aecf09")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 59.69 55.88 90)
 			(effects
 				(font
@@ -2888,7 +2888,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2911,7 +2911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cac9014-42a5-4cce-82ff-0d18895be7aa")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR057"
 			(at 132.08 67.31 0)
 			(effects
 				(font
@@ -2961,7 +2961,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR059")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3059,7 +3059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "814ac130-1953-425a-b754-6cbee062ada9")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 135.128 55.88 90)
 			(effects
 				(font
@@ -3113,7 +3113,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3135,7 +3135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "832baccd-d1db-4365-8a41-e1abb778aac5")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR058"
 			(at 88.9 80.01 0)
 			(effects
 				(font
@@ -3185,7 +3185,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR060")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3207,7 +3207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87633e64-ff0f-4a23-b1d0-8afedbc3dbc5")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 83.82 106.68 0)
 			(effects
 				(font
@@ -3257,7 +3257,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8acd6d5d-9c18-41fe-8d1a-5d6b669eb973")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 87.376 51.054 90)
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92f2aeaf-c605-49bc-bf5b-6a10c6772123")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR055"
 			(at 38.1 67.31 0)
 			(effects
 				(font
@@ -3405,7 +3405,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR057")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3629,7 +3629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0157114-4fe2-486e-90d7-b33d1caf36b4")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR054"
 			(at 149.86 62.23 0)
 			(effects
 				(font
@@ -3679,7 +3679,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR056")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3701,7 +3701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0157114-4fe2-486e-90d7-b33d1caf36b5")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR051"
 			(at 45.72 29.21 0)
 			(effects
 				(font
@@ -3751,7 +3751,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR053")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3924,7 +3924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c43ffced-e668-4a16-974a-8a2511f78d8f")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 144.272 53.594 90)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4000,7 +4000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c586435b-620c-43f5-8994-b2c15bfd36a9")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 85.09 62.23 0)
 			(effects
 				(font
@@ -4050,7 +4050,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4072,7 +4072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccb3ef5f-d88f-4fc9-883b-63931a3a3e59")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 67.31 55.88 90)
 			(effects
 				(font
@@ -4124,7 +4124,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4140,7 +4140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd8d4298-24c6-4966-961b-22024433bf96")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR060"
 			(at 45.72 93.98 0)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#PWR037")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4206,7 +4206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5077dcb-704b-4f65-bac3-7b9d00a3257e")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 38.1 59.055 0)
 			(effects
 				(font
@@ -4257,7 +4257,7 @@
 		(instances
 			(project ""
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

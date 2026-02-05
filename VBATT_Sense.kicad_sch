@@ -1026,7 +1026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1214a40c-ec60-4f6f-a832-8a1780373de6")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 132.08 67.945 0)
 			(effects
 				(font
@@ -1077,7 +1077,7 @@
 		(instances
 			(project ""
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02/3f1a3f1c-849d-463b-bb98-bc3e98494186"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -1263,7 +1263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf63d0ff-97bf-40ef-87ba-fe28dd0dd281")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 135.89 59.6899 0)
 			(effects
 				(font
@@ -1323,7 +1323,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/ff86f43e-2806-4661-a460-b8d13650ca02/3f1a3f1c-849d-463b-bb98-bc3e98494186"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
