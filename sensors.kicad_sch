@@ -537,7 +537,7 @@
 		(uuid "ed433211-8431-41e5-8c4e-173b757ed524")
 	)
 	(hierarchical_label "MISO"
-		(shape input)
+		(shape output)
 		(at 196.85 91.44 180)
 		(effects
 			(font
@@ -546,28 +546,6 @@
 			(justify right)
 		)
 		(uuid "0c3b9caf-645b-45db-81a6-942d47655716")
-	)
-	(hierarchical_label "MISO"
-		(shape input)
-		(at 203.2 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13a03b43-d938-4d2d-8868-f233459aeddf")
-	)
-	(hierarchical_label "CS_IMU_MAG"
-		(shape input)
-		(at 146.05 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "296d3628-5301-45db-8820-a51fe91ffb5b")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -602,61 +580,6 @@
 		)
 		(uuid "7e35f198-d1b7-452e-85fd-f0441ba5df98")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 146.05 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e7a341b-6282-4b82-856d-8a3020f7cdb3")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 224.79 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83247a3b-74df-45d1-b7ce-9ca82cb4a370")
-	)
-	(hierarchical_label "MOSI"
-		(shape input)
-		(at 203.2 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "851c0512-c5fc-4664-8a8c-c4edde531884")
-	)
-	(hierarchical_label "MISO_MAG"
-		(shape input)
-		(at 146.05 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "887eda2c-670c-4861-b4c0-1f1804fe863b")
-	)
-	(hierarchical_label "MOSI"
-		(shape input)
-		(at 146.05 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9adec634-84b0-419f-85e2-48a282943e04")
-	)
 	(hierarchical_label "CS_BARO"
 		(shape input)
 		(at 80.01 99.06 180)
@@ -668,30 +591,8 @@
 		)
 		(uuid "9d3fc49e-a7b9-4dcb-b222-ee97082b9b51")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 203.2 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae787ee3-3e1b-4614-91fc-b86e0d39fd83")
-	)
-	(hierarchical_label "CS_ACCEL"
-		(shape input)
-		(at 203.2 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b038daf7-b9c0-436c-a361-3dc6112f626d")
-	)
 	(hierarchical_label "MISO"
-		(shape input)
+		(shape output)
 		(at 139.7 91.44 180)
 		(effects
 			(font
@@ -713,7 +614,7 @@
 		(uuid "b8e3e898-1356-4d7f-aa24-57be3b047464")
 	)
 	(hierarchical_label "MISO"
-		(shape input)
+		(shape output)
 		(at 80.01 91.44 180)
 		(effects
 			(font
@@ -723,29 +624,7 @@
 		)
 		(uuid "bfb5bf8d-5d9a-4242-a670-27019e9a3d74")
 	)
-	(hierarchical_label "SCK"
-		(shape input)
-		(at 203.2 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c39f330c-c34f-4b8c-8ae1-bc94493ea9a3")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 167.64 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c734deab-c82f-4ff3-9cf0-7caa29e08481")
-	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 44.45 36.83 180)
 		(effects
@@ -755,17 +634,6 @@
 			(justify right)
 		)
 		(uuid "ca5932c8-851b-4a33-8a90-0206a07984ec")
-	)
-	(hierarchical_label "MISO_AG"
-		(shape input)
-		(at 146.05 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca930258-38ea-4b7e-b88e-0b02f723ff8c")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -788,17 +656,6 @@
 			(justify right)
 		)
 		(uuid "d77053c0-2e5a-43cb-8e47-69a9ef4f5b74")
-	)
-	(hierarchical_label "CS_IMU_AG"
-		(shape input)
-		(at 146.05 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8bd3e04-588e-4037-bb0d-8123f9b835ee")
 	)
 	(hierarchical_label "CS_IMU_AG"
 		(shape input)
@@ -832,17 +689,6 @@
 			(justify right)
 		)
 		(uuid "e25a6df4-b71d-4107-a051-a8d5c157aef7")
-	)
-	(hierarchical_label "SCK"
-		(shape input)
-		(at 146.05 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e33de327-0c52-49fb-8cd6-9929ca84adbc")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -1418,6 +1264,86 @@
 				(hide yes)
 			)
 		)
+		(pin "CS_IMU_MAG" input
+			(at 146.05 104.14 180)
+			(uuid "8c86e8a0-5e55-4674-8720-e112fa1ad8f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 146.05 99.06 180)
+			(uuid "ea95f75f-a655-4033-9002-a0c7471ee3d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO_MAG" output
+			(at 146.05 93.98 180)
+			(uuid "00d0d61c-8224-49b6-b5fb-a8a70bdae786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" input
+			(at 146.05 87.63 180)
+			(uuid "e272e4c3-2d28-4652-9769-e32d393897a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 146.05 96.52 180)
+			(uuid "bac44da3-a24f-481e-843a-cbd1575d4ac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO_AG" output
+			(at 146.05 91.44 180)
+			(uuid "390e0b99-5c37-4b71-930a-a2a378e271aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_IMU_AG" input
+			(at 146.05 101.6 180)
+			(uuid "4fa67b70-6203-4be6-9c0a-10c9ef50e3bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 167.64 105.41 0)
+			(uuid "b20c8b22-3c21-428a-b764-80594c1b7802")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/b9b0c40a-7771-4bc1-adbf-abe0201c34d0"
@@ -1459,6 +1385,66 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "MOSI" input
+			(at 203.2 93.98 180)
+			(uuid "3f0ca171-a732-4378-bd5f-9b6fe282485f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 203.2 96.52 180)
+			(uuid "d5c8a919-65ba-47d5-b57b-961d42021cfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_ACCEL" input
+			(at 203.2 102.87 180)
+			(uuid "7a7b1b88-b2ed-4267-99dc-03921f364bee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 203.2 91.44 180)
+			(uuid "27913abf-0c19-4341-b588-89bfb8c3898a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 224.79 105.41 0)
+			(uuid "c9b2576a-c9b6-4aa8-9ab8-c6306b5ff944")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 203.2 87.63 180)
+			(uuid "11b0e320-f5da-485a-b27b-606985067667")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1503,39 +1489,9 @@
 				(hide yes)
 			)
 		)
-		(pin "3V3" input
-			(at 86.36 87.63 180)
-			(uuid "54b7eb03-a72d-4661-aeb1-d09235c5a47a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOSI" input
-			(at 86.36 93.98 180)
-			(uuid "b0502f6a-0928-48ee-872b-2b484e3e9f31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GND" input
-			(at 107.95 105.41 0)
-			(uuid "0f38ba0a-1b1d-4b01-a22c-1e332068c8a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SCK" input
 			(at 86.36 96.52 180)
-			(uuid "bd1fad9c-c1da-4c2d-93aa-32b6144c99e1")
+			(uuid "76def059-e522-4c39-88b2-b447be755aea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,9 +1499,9 @@
 				(justify left)
 			)
 		)
-		(pin "MISO" input
+		(pin "MISO" output
 			(at 86.36 91.44 180)
-			(uuid "f3326d4f-9a72-4b7e-9f0a-c1c3905ec7d0")
+			(uuid "81810cca-2f5a-49fc-8812-cbcd493e9980")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1511,17 @@
 		)
 		(pin "CS_BARO" input
 			(at 86.36 99.06 180)
-			(uuid "84dc396d-bf72-4f7a-98b7-28d0cd4859d5")
+			(uuid "3e9f6c18-0317-4313-ac13-b9357e5ca773")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" input
+			(at 86.36 87.63 180)
+			(uuid "e5fce14a-98a7-495c-8e6d-e1fd4fea80f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1531,27 @@
 		)
 		(pin "PS_BARO" input
 			(at 107.95 102.87 0)
-			(uuid "55d4e826-1d23-4c4d-8552-814e3f4619e3")
+			(uuid "d3fbcb53-a513-4271-8ab1-bdc85377935c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 86.36 93.98 180)
+			(uuid "faf53919-e74c-4747-9eee-7c7a27f9d974")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 107.95 105.41 0)
+			(uuid "e9cae795-3123-42cc-a58a-7b0127525034")
 			(effects
 				(font
 					(size 1.27 1.27)

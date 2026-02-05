@@ -58,25 +58,7 @@
 				)
 			)
 			(symbol "lsm9ds1_0_0"
-				(pin output line
-					(at 1.27 -29.21 0)
-					(length 2.54)
-					(name "SDOAG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
+				(pin unspecified line
 					(at 1.27 -31.75 0)
 					(length 2.54)
 					(name "SDOM"
@@ -86,7 +68,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -97,7 +79,7 @@
 				(pin input line
 					(at 1.27 -34.29 0)
 					(length 2.54)
-					(name "SCL"
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -122,7 +104,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -140,7 +122,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -166,7 +148,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 24.13 -11.43 180)
 					(length 2.54)
 					(name "DEN"
@@ -253,7 +235,7 @@
 				)
 			)
 			(symbol "lsm9ds1_1_0"
-				(pin power_out line
+				(pin power_in line
 					(at 1.27 -7.62 0)
 					(length 2.54)
 					(name "VDD_IO"
@@ -271,7 +253,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 1.27 -10.16 0)
 					(length 2.54)
 					(name "VDD_IO"
@@ -343,7 +325,25 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
+					(at 1.27 -29.21 0)
+					(length 2.54)
+					(name "SDOAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at 24.13 -21.59 180)
 					(length 2.54)
 					(name "C1"
@@ -361,7 +361,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 24.13 -26.67 180)
 					(length 2.54)
 					(name "CAP"
@@ -1351,7 +1351,7 @@
 		(uuid "515e49e4-4381-41c4-ac66-af427d5e0fa3")
 	)
 	(hierarchical_label "MISO_MAG"
-		(shape input)
+		(shape output)
 		(at 102.87 72.39 180)
 		(effects
 			(font
@@ -1361,7 +1361,7 @@
 		)
 		(uuid "59efb5b4-6f7d-4528-89fe-06e235b0ce3b")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 52.07 35.56 180)
 		(effects
@@ -1384,7 +1384,7 @@
 		(uuid "6595a6cd-5303-45f4-86a2-e2f6e9af2e0e")
 	)
 	(hierarchical_label "MISO_AG"
-		(shape input)
+		(shape output)
 		(at 102.87 69.85 180)
 		(effects
 			(font
@@ -1556,7 +1556,7 @@
 		(pin "6"
 			(uuid "1bc4573e-10f9-40e7-bda8-d31ec01db716")
 		)
-		(pin "9"
+		(pin "7"
 			(uuid "69da1c42-8dc3-4105-8a95-aeec8e1d1732")
 		)
 		(pin "13"
@@ -1638,7 +1638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 76.2 43.18 0)
 			(effects
 				(font
@@ -1704,7 +1704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 100.33 43.18 0)
 			(effects
 				(font
@@ -2308,7 +2308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 53.34 29.21 0)
 			(effects
 				(font

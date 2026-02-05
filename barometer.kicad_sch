@@ -600,7 +600,7 @@
 		(uuid "1903d520-29c7-4179-a684-4671eeeca0a9")
 	)
 	(hierarchical_label "MISO"
-		(shape input)
+		(shape output)
 		(at 102.87 74.93 180)
 		(effects
 			(font
@@ -621,7 +621,7 @@
 		)
 		(uuid "6a7d405d-589e-4956-9fa3-8d9713fa869d")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 80.01 58.42 180)
 		(effects

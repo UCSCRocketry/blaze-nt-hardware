@@ -362,6 +362,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 114.3 81.28)
+		(uuid "0d93300d-163d-430f-a67c-7e7a0e5b7374")
+	)
+	(no_connect
+		(at 114.3 83.82)
+		(uuid "80546bcd-31ba-4aa7-920d-3a117c9d5ed0")
+	)
+	(no_connect
+		(at 114.3 78.74)
+		(uuid "9e306236-de32-48b6-966f-955730221a94")
+	)
+	(no_connect
+		(at 114.3 86.36)
+		(uuid "c84f8a31-e48e-4f2a-9bc9-86eda662ebaa")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f847c6-5287-4c64-b40b-f73fc1ec776e")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0351f8a8-3bc5-4c51-a76e-d03dcb65c162")
+	)
 	(wire
 		(pts
 			(xy 106.68 68.58) (xy 114.3 68.58)
@@ -371,6 +407,16 @@
 			(type default)
 		)
 		(uuid "0ed5aa8f-793c-4351-9970-2f7adb958301")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e9b70f-86af-44ab-8c57-26a34ed2cba3")
 	)
 	(wire
 		(pts
@@ -394,23 +440,33 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 101.6 71.12)
+			(xy 144.78 106.68) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3edeec7f-9805-4d3e-bb0a-244f2d29b86e")
+		(uuid "4db9884d-565b-432f-8b75-e1fe2a330ddf")
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 101.6 66.04)
+			(xy 139.7 68.58) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52446842-24ba-4983-b87d-457504a11e1f")
+		(uuid "530b615d-872f-4ff5-a092-3106cb94fd0b")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dd6fcc-1121-4034-844d-24f9be913750")
 	)
 	(wire
 		(pts
@@ -424,6 +480,56 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 109.22) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8458e5ce-fe31-445c-abfd-8dbac84d9238")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad79775-a6d7-4494-8189-1cf993c5ed20")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a317a80d-e596-43a1-b04b-3f05e0903b4b")
+	)
+	(wire
+		(pts
+			(xy 149.86 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83e102e-5f7b-4249-b7d9-d8ec75d2135e")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbba777b-e01d-4744-a2bc-e9be33fd6f48")
+	)
+	(wire
+		(pts
 			(xy 149.86 104.14) (xy 152.4 104.14)
 		)
 		(stroke
@@ -434,6 +540,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87d1648-f1cf-46a8-b3f1-48ecd509bd11")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce391de6-c990-4166-912d-d28c2344fff1")
+	)
+	(wire
+		(pts
 			(xy 111.76 104.14) (xy 114.3 104.14)
 		)
 		(stroke
@@ -441,6 +567,16 @@
 			(type default)
 		)
 		(uuid "ce8b7503-51e6-44be-a5cd-160028f63a97")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83ba3ee-cc4f-403a-a413-f87c52255fa6")
 	)
 	(wire
 		(pts
@@ -481,6 +617,86 @@
 			(type default)
 		)
 		(uuid "f3fc3bbf-0005-4224-81f8-76847f5fa8d8")
+	)
+	(label "MISO"
+		(at 144.78 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0277aa2f-7658-4081-8a04-e143b4323ec0")
+	)
+	(label "MOSI"
+		(at 139.7 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b66f7b9-c043-464b-8ae5-ba436bdb8479")
+	)
+	(label "CS_POWER"
+		(at 104.14 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c31c352-f254-4835-b964-12d537b30241")
+	)
+	(label "CS_POWER"
+		(at 149.86 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "572402d7-eb01-42f5-9764-191c2e248aaa")
+	)
+	(label "MOSI"
+		(at 144.78 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d99334ed-5ad1-4e1e-8bde-24058a5f1c97")
+	)
+	(label "SCK"
+		(at 144.78 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed4c1f4a-ec33-49db-a4bb-ce6002797322")
+	)
+	(label "SCK"
+		(at 139.7 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef46c0ba-c211-4b6d-aa27-5fea84415295")
+	)
+	(label "MISO"
+		(at 139.7 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa57828c-4672-469a-9c8b-6fbd82fb2216")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -609,6 +825,72 @@
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5271d408-0c6d-4fd5-8e47-e1fe3ac52c4b")
+		(property "Reference" "#PWR01"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0646a516-afbf-4d55-8d00-4a0991b9d0d2")
+		)
+		(instances
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -945,72 +1227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e45c78df-3d68-432b-b457-c9a4ba404333")
-		(property "Reference" "#PWR01"
-			(at 101.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBATT"
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "819d7532-c1b3-419c-b185-dda596aff0e9")
-		)
-		(instances
-			(project "Blaze-NT"
-				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 149.86 104.14 0)
 		(unit 1)
@@ -1197,7 +1413,7 @@
 				(justify left)
 			)
 		)
-		(pin "CS_RADIO" input
+		(pin "CS_RADIO" output
 			(at 114.3 78.74 180)
 			(uuid "2405dd25-23b7-49ab-9fda-d9e0144bc5a2")
 			(effects
@@ -1207,7 +1423,7 @@
 				(justify left)
 			)
 		)
-		(pin "EN_RADIO" input
+		(pin "EN_RADIO" output
 			(at 114.3 81.28 180)
 			(uuid "b25ecd00-8695-422c-ba4f-8c43eba1c46e")
 			(effects
@@ -1217,7 +1433,7 @@
 				(justify left)
 			)
 		)
-		(pin "RST_RADIO" input
+		(pin "RST_RADIO" output
 			(at 114.3 83.82 180)
 			(uuid "d6c48d6d-59c5-4f0e-9f40-11f85ee1afb3")
 			(effects
@@ -1227,7 +1443,7 @@
 				(justify left)
 			)
 		)
-		(pin "CS_BARO" input
+		(pin "CS_BARO" output
 			(at 139.7 76.2 0)
 			(uuid "acc54938-3d10-4e9f-820c-f575204797f0")
 			(effects
@@ -1237,7 +1453,7 @@
 				(justify right)
 			)
 		)
-		(pin "CS_ACCEL" input
+		(pin "CS_ACCEL" output
 			(at 139.7 78.74 0)
 			(uuid "3c202925-a1d2-4d99-adae-5626334cc44c")
 			(effects
@@ -1247,7 +1463,7 @@
 				(justify right)
 			)
 		)
-		(pin "CS_IMU_MAG" input
+		(pin "CS_IMU_MAG" output
 			(at 139.7 81.28 0)
 			(uuid "eaae2c81-dd03-4e96-8134-bb70df988825")
 			(effects
@@ -1257,7 +1473,7 @@
 				(justify right)
 			)
 		)
-		(pin "CS_IMU_AG" input
+		(pin "CS_IMU_AG" output
 			(at 139.7 83.82 0)
 			(uuid "146bb2d3-1550-46ce-bccb-286303e1b160")
 			(effects
@@ -1267,8 +1483,8 @@
 				(justify right)
 			)
 		)
-		(pin "MOSI" input
-			(at 139.7 71.12 0)
+		(pin "MOSI" output
+			(at 139.7 73.66 0)
 			(uuid "0c80a69c-0e0b-410b-8a13-3340a1ac3d4c")
 			(effects
 				(font
@@ -1277,8 +1493,8 @@
 				(justify right)
 			)
 		)
-		(pin "SCK" input
-			(at 139.7 66.04 0)
+		(pin "SCK" output
+			(at 139.7 68.58 0)
 			(uuid "0abf7faa-751a-477d-a1d6-4fb13dbef3c1")
 			(effects
 				(font
@@ -1288,7 +1504,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 139.7 68.58 0)
+			(at 139.7 71.12 0)
 			(uuid "80243fb3-6820-4f8e-9779-91bf078ee2c2")
 			(effects
 				(font
@@ -1297,17 +1513,7 @@
 				(justify right)
 			)
 		)
-		(pin "VBATT" input
-			(at 114.3 71.12 180)
-			(uuid "d88390c4-59f8-40ce-9113-38a620a2c02b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V" input
+		(pin "+5V" output
 			(at 114.3 68.58 180)
 			(uuid "3c44643c-1d84-4dc4-a052-a425f08d612b")
 			(effects
@@ -1320,6 +1526,16 @@
 		(pin "+3V3" input
 			(at 114.3 66.04 180)
 			(uuid "1f9921ec-ab24-43c4-8890-bee5dbe12d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_POWER" output
+			(at 114.3 76.2 180)
+			(uuid "7872d056-919d-4ba6-a251-0cb2acf506d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,9 +1659,79 @@
 				(justify right)
 			)
 		)
+		(pin "CS_BARO" input
+			(at 152.4 76.2 180)
+			(uuid "951c6059-187e-47c6-a76e-8dcc55283c7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_ACCEL" input
+			(at 152.4 78.74 180)
+			(uuid "f3f54305-f38f-4ad4-800e-907c3a48e458")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 152.4 68.58 180)
+			(uuid "3302be93-ed4a-4106-af10-7d2db0afb2ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_IMU_AG" input
+			(at 152.4 83.82 180)
+			(uuid "df3a83f0-8b04-419e-8f6c-b27a098d95fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_IMU_MAG" input
+			(at 152.4 81.28 180)
+			(uuid "fac04c9b-d478-4d2c-af88-e51832c90cbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 152.4 71.12 180)
+			(uuid "294d60c4-376f-4c52-aae1-cbddcb49349f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 152.4 73.66 180)
+			(uuid "638ca204-f63b-4cc6-99a0-82259dcce05d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "+3V3" input
 			(at 152.4 66.04 180)
-			(uuid "70b4bafe-7f2f-4828-8b40-aaea5d4e38b9")
+			(uuid "1d0c8c20-76a6-46d6-a1b4-0b4d699e6a98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,9 +1782,9 @@
 				(hide yes)
 			)
 		)
-		(pin "GND" input
-			(at 139.7 124.46 0)
-			(uuid "fe61e6b2-396a-4b14-ba7e-4dc02e61b067")
+		(pin "MOSI" input
+			(at 139.7 109.22 0)
+			(uuid "7993e372-1640-434b-9f1a-2a87260367a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,9 +1792,59 @@
 				(justify right)
 			)
 		)
-		(pin "+3V3" input
+		(pin "GND" output
+			(at 139.7 124.46 0)
+			(uuid "a2935bec-16aa-408c-84f9-d9eb69fddc5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 139.7 106.68 0)
+			(uuid "8baff487-b7d8-4cd6-977b-582253833d24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" output
 			(at 114.3 104.14 180)
-			(uuid "4c7598db-4220-409c-a452-dbee2cd3bb3c")
+			(uuid "ac89deb1-b08f-4a20-8462-3742c373159f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_POWER" input
+			(at 139.7 111.76 0)
+			(uuid "98d87f52-f667-440a-8576-01b049ba2d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 139.7 104.14 0)
+			(uuid "85f62627-2306-4edd-88e4-459f873091bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 114.3 106.68 180)
+			(uuid "7c979920-99f6-452e-ad7e-b68352dea194")
 			(effects
 				(font
 					(size 1.27 1.27)
