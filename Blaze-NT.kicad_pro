@@ -446,6 +446,22 @@
     [
       "979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423",
       "Radio"
+    ],
+    [
+      "9ad84ef5-c94d-4ded-9701-2036daea17e6",
+      "Barometer"
+    ],
+    [
+      "6214bd7c-f0f2-4cad-9d95-7bb7bb29e083",
+      "IMU"
+    ],
+    [
+      "9a6553ac-59f7-4d16-afa0-9743f2c46ffa",
+      "Accelerometer"
+    ],
+    [
+      "3f1a3f1c-849d-463b-bb98-bc3e98494186",
+      "VBATT_Sense"
     ]
   ],
   "text_variables": {}
