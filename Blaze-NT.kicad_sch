@@ -362,22 +362,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 114.3 81.28)
-		(uuid "0d93300d-163d-430f-a67c-7e7a0e5b7374")
-	)
-	(no_connect
-		(at 114.3 83.82)
-		(uuid "80546bcd-31ba-4aa7-920d-3a117c9d5ed0")
-	)
-	(no_connect
-		(at 114.3 78.74)
-		(uuid "9e306236-de32-48b6-966f-955730221a94")
-	)
-	(no_connect
-		(at 114.3 86.36)
-		(uuid "c84f8a31-e48e-4f2a-9bc9-86eda662ebaa")
-	)
 	(wire
 		(pts
 			(xy 139.7 71.12) (xy 152.4 71.12)
@@ -430,6 +414,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 119.38) (xy 152.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b8ea53-312a-42e5-a6c9-f9b4ddca70f2")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee74834-2e1c-4fb9-91b0-3226b3463de4")
+	)
+	(wire
+		(pts
 			(xy 139.7 86.36) (xy 142.24 86.36)
 		)
 		(stroke
@@ -440,7 +444,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 139.7 106.68)
+			(xy 139.7 109.22) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -460,6 +464,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 121.92) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619f78a8-7ffe-46fa-980d-1af0ab3c1776")
+	)
+	(wire
+		(pts
 			(xy 139.7 83.82) (xy 152.4 83.82)
 		)
 		(stroke
@@ -467,6 +481,16 @@
 			(type default)
 		)
 		(uuid "64dd6fcc-1121-4034-844d-24f9be913750")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4b530d-3fbb-46e9-8322-b5b52d1c14fb")
 	)
 	(wire
 		(pts
@@ -480,7 +504,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 109.22) (xy 139.7 109.22)
+			(xy 139.7 111.76) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -490,7 +514,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 139.7 104.14)
+			(xy 104.14 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8793e602-ae2e-4ea1-8ed7-f8764e2d4710")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +544,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 139.7 111.76)
+			(xy 149.86 114.3) (xy 139.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -610,6 +644,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff6c976-aa6f-45ea-9e17-43f3418b27f9")
+	)
+	(wire
+		(pts
 			(xy 139.7 124.46) (xy 142.24 124.46)
 		)
 		(stroke
@@ -619,7 +663,7 @@
 		(uuid "f3fc3bbf-0005-4224-81f8-76847f5fa8d8")
 	)
 	(label "MISO"
-		(at 144.78 106.68 180)
+		(at 144.78 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -638,6 +682,36 @@
 		)
 		(uuid "0b66f7b9-c043-464b-8ae5-ba436bdb8479")
 	)
+	(label "INT_RADIO"
+		(at 104.14 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "165a50a5-2d14-44dc-bca5-eabf01618a34")
+	)
+	(label "RST_RADIO"
+		(at 142.24 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35bae20c-66d6-4ca8-81ba-dee281ccf621")
+	)
+	(label "CS_RADIO"
+		(at 142.24 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3617fc0c-7b2d-466f-a8f8-855d8c4c0e36")
+	)
 	(label "CS_POWER"
 		(at 104.14 76.2 0)
 		(effects
@@ -649,7 +723,7 @@
 		(uuid "3c31c352-f254-4835-b964-12d537b30241")
 	)
 	(label "CS_POWER"
-		(at 149.86 111.76 180)
+		(at 149.86 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -658,8 +732,18 @@
 		)
 		(uuid "572402d7-eb01-42f5-9764-191c2e248aaa")
 	)
+	(label "INT_RADIO"
+		(at 142.24 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0516e6a-3bbe-4557-8e35-d506215e8e76")
+	)
 	(label "MOSI"
-		(at 144.78 109.22 180)
+		(at 144.78 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -668,8 +752,18 @@
 		)
 		(uuid "d99334ed-5ad1-4e1e-8bde-24058a5f1c97")
 	)
+	(label "CS_RADIO"
+		(at 104.14 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df366880-008c-4584-8b24-cc8db4219fdf")
+	)
 	(label "SCK"
-		(at 144.78 104.14 180)
+		(at 144.78 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -697,6 +791,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa57828c-4672-469a-9c8b-6fbd82fb2216")
+	)
+	(label "RST_RADIO"
+		(at 104.14 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fea05704-732f-423d-a3fd-8309e4f42de2")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1423,16 +1527,6 @@
 				(justify left)
 			)
 		)
-		(pin "EN_RADIO" output
-			(at 114.3 81.28 180)
-			(uuid "b25ecd00-8695-422c-ba4f-8c43eba1c46e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RST_RADIO" output
 			(at 114.3 83.82 180)
 			(uuid "d6c48d6d-59c5-4f0e-9f40-11f85ee1afb3")
@@ -1599,6 +1693,66 @@
 		(pin "+3V3" input
 			(at 152.4 104.14 180)
 			(uuid "9267bc55-5a92-46ad-b79b-c46ac7691b9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 152.4 111.76 180)
+			(uuid "53b5ce10-bc3b-40c6-9002-44273bc553eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_RADIO" input
+			(at 152.4 116.84 180)
+			(uuid "366f9280-4c6d-4a33-8039-32ace09329cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST_RADIO" input
+			(at 152.4 119.38 180)
+			(uuid "997fa835-83ba-4822-a1df-0474f76fd8d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 152.4 109.22 180)
+			(uuid "04d8a02b-2593-4273-85d9-033e6aa59d7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 152.4 106.68 180)
+			(uuid "c1bb990a-106a-4914-81c1-396b5a2c5ebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_RADIO" input
+			(at 152.4 121.92 180)
+			(uuid "0b6c8bc1-1b0a-4182-9d08-ec2538b9b0c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1937,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 139.7 109.22 0)
+			(at 139.7 111.76 0)
 			(uuid "7993e372-1640-434b-9f1a-2a87260367a7")
 			(effects
 				(font
@@ -1803,7 +1957,7 @@
 			)
 		)
 		(pin "MISO" output
-			(at 139.7 106.68 0)
+			(at 139.7 109.22 0)
 			(uuid "8baff487-b7d8-4cd6-977b-582253833d24")
 			(effects
 				(font
@@ -1823,7 +1977,7 @@
 			)
 		)
 		(pin "CS_POWER" input
-			(at 139.7 111.76 0)
+			(at 139.7 114.3 0)
 			(uuid "98d87f52-f667-440a-8576-01b049ba2d58")
 			(effects
 				(font
@@ -1833,7 +1987,7 @@
 			)
 		)
 		(pin "SCK" input
-			(at 139.7 104.14 0)
+			(at 139.7 106.68 0)
 			(uuid "85f62627-2306-4edd-88e4-459f873091bb")
 			(effects
 				(font

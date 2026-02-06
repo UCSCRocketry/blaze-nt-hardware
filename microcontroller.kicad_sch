@@ -6282,17 +6282,6 @@
 		)
 		(uuid "ff72cd33-65be-40d9-af95-121425955f08")
 	)
-	(hierarchical_label "INT_RADIO"
-		(shape input)
-		(at 137.16 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3454a9ab-c22a-4780-b56f-77888a8b43ca")
-	)
 	(hierarchical_label "+5V"
 		(shape output)
 		(at 44.45 38.1 180)
@@ -6326,6 +6315,17 @@
 		)
 		(uuid "3be00310-aa84-4b91-8d32-260a43fe7808")
 	)
+	(hierarchical_label "INT_RADIO"
+		(shape input)
+		(at 137.16 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59cc39f0-d362-4084-804f-f8425ba48052")
+	)
 	(hierarchical_label "CS_RADIO"
 		(shape output)
 		(at 137.16 119.38 180)
@@ -6336,17 +6336,6 @@
 			(justify right)
 		)
 		(uuid "73682c2c-7b0e-452a-906b-036474883ce8")
-	)
-	(hierarchical_label "EN_RADIO"
-		(shape output)
-		(at 137.16 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76b83379-ccec-4193-bf6a-6d1abb8bffaf")
 	)
 	(hierarchical_label "CS_POWER"
 		(shape output)
