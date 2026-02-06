@@ -1224,7 +1224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13f360c6-743f-40b4-b1de-abca0b71013b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR066"
 			(at 63.5 73.66 0)
 			(effects
 				(font
@@ -1280,7 +1280,7 @@
 			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR?")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1296,7 +1296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28cdf4b6-bf49-445f-b6d0-8b59fa6bfeff")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR063"
 			(at 36.83 45.72 0)
 			(effects
 				(font
@@ -1352,82 +1352,7 @@
 			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fc0b781-b505-4cff-aeb7-bf07ac31178a")
-		(property "Reference" "C?"
-			(at 71.374 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 71.374 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71c0cdd8-12bb-4f76-9ca5-b9a6a41ed1cd")
-		)
-		(pin "2"
-			(uuid "4243afa2-b3a6-4fd2-987d-2ba68013fee9")
-		)
-		(instances
-			(project "Radio"
-				(path "/12e39877-80e8-480e-857d-0f6edf0cae76"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "Blaze-NT"
-				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "C?")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1443,7 +1368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d77246-fd61-49f9-8482-1a7fe1d28b78")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR069"
 			(at 96.52 86.36 0)
 			(effects
 				(font
@@ -1499,7 +1424,7 @@
 			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR?")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1515,7 +1440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b83bb73-454d-4254-aa1a-fc87f6c00a4f")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR065"
 			(at 130.81 71.12 0)
 			(effects
 				(font
@@ -1565,7 +1490,7 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR051")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1599,7 +1524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 138.43 62.23 0)
 			(effects
 				(font
@@ -1651,7 +1576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eea9255-88ad-4e19-a46f-b53d0955e0b9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR068"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -1707,7 +1632,7 @@
 			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR?")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1721,8 +1646,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4fb34b48-f772-4d8c-8223-d986300486eb")
-		(property "Reference" "U?"
+		(uuid "51602294-3ded-46fc-b2fe-254bb782f7a6")
+		(property "Reference" "U5"
 			(at 106.68 55.118 0)
 			(effects
 				(font
@@ -1739,7 +1664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VSSOP10_DGS_TEX"
+		(property "Footprint" "RF_Module:HOPERF_RFM9XW_SMD"
 			(at 126.746 51.562 0)
 			(effects
 				(font
@@ -1825,7 +1750,7 @@
 			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1841,7 +1766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "579f4f29-cea8-4187-990d-6dfc31eed3d4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR062"
 			(at 36.83 36.83 0)
 			(effects
 				(font
@@ -1897,82 +1822,7 @@
 			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 63.5 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3250917-007f-4d13-a905-32d925468bad")
-		(property "Reference" "C?"
-			(at 63.754 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 63.754 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd70bf3d-601e-4d4a-bca5-9cdbc6317534")
-		)
-		(pin "2"
-			(uuid "cfceb92a-a758-487f-adb0-b96ce4c9b60a")
-		)
-		(instances
-			(project "Radio"
-				(path "/12e39877-80e8-480e-857d-0f6edf0cae76"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "Blaze-NT"
-				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "C?")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1988,7 +1838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae8e7a19-31a6-488f-ad38-0174df4f92ee")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR067"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -2044,7 +1894,7 @@
 			)
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR?")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2060,7 +1910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3df69ff-1871-4714-94ae-99bccb4054a3")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR064"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -2110,7 +1960,157 @@
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
-					(reference "#PWR052")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.12 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9b9b185-16b9-4967-b609-f47ac8425f67")
+		(property "Reference" "C16"
+			(at 71.374 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 71.374 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71c0cdd8-12bb-4f76-9ca5-b9a6a41ed1cd")
+		)
+		(pin "2"
+			(uuid "4243afa2-b3a6-4fd2-987d-2ba68013fee9")
+		)
+		(instances
+			(project "Radio"
+				(path "/12e39877-80e8-480e-857d-0f6edf0cae76"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbcea6eb-7d5a-4b11-b9ea-accb061ca9f0")
+		(property "Reference" "C15"
+			(at 63.754 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 63.754 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd70bf3d-601e-4d4a-bca5-9cdbc6317534")
+		)
+		(pin "2"
+			(uuid "cfceb92a-a758-487f-adb0-b96ce4c9b60a")
+		)
+		(instances
+			(project "Radio"
+				(path "/12e39877-80e8-480e-857d-0f6edf0cae76"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/979bcbe4-aa8a-4b7b-8fc2-42dc38bdf423"
+					(reference "C15")
 					(unit 1)
 				)
 			)
