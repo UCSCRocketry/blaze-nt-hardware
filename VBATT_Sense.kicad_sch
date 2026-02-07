@@ -1254,17 +1254,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Shunt_US")
-		(at 133.35 60.96 0)
-		(mirror y)
+		(at 133.35 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf63d0ff-97bf-40ef-87ba-fe28dd0dd281")
 		(property "Reference" "R15"
-			(at 135.89 59.6899 0)
+			(at 135.89 62.2301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1271,7 @@
 			)
 		)
 		(property "Value" "0.1"
-			(at 135.89 62.2299 0)
+			(at 135.89 59.6901 0)
 			(effects
 				(font
 					(size 1.27 1.27)

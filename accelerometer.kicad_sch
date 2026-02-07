@@ -1373,7 +1373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Avionics_Feet:XDCR_KX003-1077"
 			(at 77.47 53.34 0)
 			(effects
 				(font
