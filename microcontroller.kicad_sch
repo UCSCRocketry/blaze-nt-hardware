@@ -11,6 +11,170 @@
 		(comment 1 "Julia Barbera")
 	)
 	(lib_symbols
+		(symbol "ASCO_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y2"
+				(at 7.112 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "32.768KHz"
+				(at 7.112 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+				(at 2.54 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+				(at -5.715 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1670130"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*Abracon*ASCO*1.6x1.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ASCO_1_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ASCO_1_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Avionics_Symbols:Micro_SD_Card"
 			(pin_names
 				(offset 1.016)
@@ -5236,12 +5400,6 @@
 		(color 0 0 0 0)
 		(uuid "fc566df1-48bb-41e7-a3fd-d997afbec0af")
 	)
-	(junction
-		(at 81.28 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe02c565-da18-4efa-b0b0-e1c00fa3a707")
-	)
 	(no_connect
 		(at 137.16 96.52)
 		(uuid "0904e222-db05-45fc-bab4-2d4340363ec8")
@@ -5385,16 +5543,6 @@
 			(type default)
 		)
 		(uuid "0f3995de-06a9-44f5-83fc-837b29d0fe81")
-	)
-	(wire
-		(pts
-			(xy 81.28 92.71) (xy 81.28 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b0b37f-7749-496f-9d13-dc1cd7514546")
 	)
 	(wire
 		(pts
@@ -5938,16 +6086,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 91.44 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a88f33bf-815d-45ae-a487-70b2c8d38667")
-	)
-	(wire
-		(pts
 			(xy 55.88 173.99) (xy 55.88 171.45)
 		)
 		(stroke
@@ -6088,7 +6226,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 100.33) (xy 121.92 100.33)
+			(xy 91.44 100.33) (xy 121.92 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6960,6 +7098,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c60f033-2e0d-48fa-b232-2e1b240980a2")
 		)
@@ -7021,6 +7168,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -7362,6 +7518,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30329ce2-6fd3-4bf7-a100-f91262a2724c")
 		)
@@ -7431,6 +7596,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19666"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27e8f7a5-2eaf-442b-8f68-a6d82ad5c0c1")
 		)
@@ -7492,6 +7666,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19666"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -7635,6 +7818,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f404dfd4-d9ec-4202-95c2-2f7d79819abb")
 		)
@@ -7695,6 +7887,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 233.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
+			(at 233.68 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,6 +8030,15 @@
 			)
 		)
 		(property "Description" "Generic shielded connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160404"
 			(at 198.12 135.89 0)
 			(effects
 				(font
@@ -8046,6 +8256,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "ASCO-8.000MHZ-EK-T3"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "870f94f5-40dc-4139-a595-768cf614a6f8")
 		)
@@ -8113,6 +8332,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 205.74 92.71 0)
 			(effects
 				(font
@@ -8323,6 +8551,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "825449f2-8682-4947-a735-12f5649c0ace")
 		)
@@ -8383,6 +8620,15 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C164170"
 			(at 236.22 95.25 0)
 			(effects
 				(font
@@ -8688,6 +8934,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907044"
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0989f466-8c3a-4554-ba37-e619c8109e77")
 		)
@@ -8814,6 +9069,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 233.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
+			(at 233.68 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,6 +9218,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C231329"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b2f872f-18cd-4852-aa6d-4523014e6fd7")
 		)
@@ -9015,6 +9288,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 113.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
+			(at 113.03 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,6 +9438,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 36.83 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc231e90-c4fe-46b2-82e8-5c1da215aad5")
 		)
@@ -9216,6 +9507,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 52.07 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907044"
+			(at 52.07 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,6 +9586,15 @@
 		)
 		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97521"
+			(at 236.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,6 +9680,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 251.46 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,6 +9963,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0391cbc1-f16d-42af-87f8-9e18604d1cf6")
 		)
@@ -9713,6 +10040,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C231329"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "980d0adf-fc55-4309-8efc-4e8aa133520a")
 		)
@@ -9730,7 +10066,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 107.95 0)
+		(at 81.28 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9739,7 +10075,7 @@
 		(fields_autoplaced yes)
 		(uuid "981ec560-1ff6-4a99-ad48-729585c6902e")
 		(property "Reference" "#PWR034"
-			(at 91.44 114.3 0)
+			(at 81.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +10084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 113.03 0)
+			(at 81.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +10092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 107.95 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,7 +10101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 107.95 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,7 +10110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 107.95 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,6 +10180,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7519"
 			(at 60.96 161.29 0)
 			(effects
 				(font
@@ -9991,6 +10336,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -10262,6 +10616,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 100 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60420"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -10610,6 +10973,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907044"
+			(at 52.07 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92b3f367-86d8-43fd-b712-bc9e857fb099")
 		)
@@ -10811,6 +11183,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C784540"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "931ffde8-b28b-4030-bbe5-bc7d6b5b41af")
 		)
@@ -10890,6 +11271,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 251.46 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd29987b-ff78-4eb1-8c7d-081ffaefdd4b")
 		)
@@ -10951,6 +11341,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 138.43 40.64 0)
 			(effects
 				(font
@@ -11041,8 +11440,9 @@
 		)
 	)
 	(symbol
+		(lib_name "ASCO_1")
 		(lib_id "Oscillator:ASCO")
-		(at 91.44 100.33 0)
+		(at 81.28 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11050,7 +11450,7 @@
 		(dnp no)
 		(uuid "c587cee0-2521-4ad0-bfb8-93aa8aaa0d10")
 		(property "Reference" "Y2"
-			(at 98.552 90.932 0)
+			(at 88.392 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,15 +11458,15 @@
 			)
 		)
 		(property "Value" "32.768KHz"
-			(at 98.552 93.472 0)
+			(at 88.392 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
-			(at 93.98 109.22 0)
+		(property "Footprint" "Avionics_Feet:OSC_SIT1532AI-J4-DCC-32.768D"
+			(at 83.82 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +11475,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
-			(at 85.725 97.155 0)
+			(at 75.565 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11084,7 +11484,16 @@
 			)
 		)
 		(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
-			(at 91.44 100.33 0)
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C367054"
+			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11160,6 +11569,15 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 95.25 154.94 0)
 			(effects
 				(font
@@ -11249,6 +11667,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2994781"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -11383,6 +11810,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 233.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
+			(at 233.68 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,6 +12092,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3025063"
+			(at 33.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B6"
 			(uuid "bbda05dd-3603-491d-ad93-e588bc70e3a3")
 		)
@@ -11765,6 +12210,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907044"
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e232c4f9-8097-4e16-8b72-3f2cbe4d39e4")
 		)
@@ -11825,6 +12279,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 38.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 38.1 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)

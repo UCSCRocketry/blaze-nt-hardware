@@ -1137,6 +1137,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2870151"
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "445895ed-6a05-438c-ab94-c4244a832e00")
 		)
@@ -1231,6 +1240,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d0ed65d-9bdd-4e9c-ac63-0964d02a0eb8")
 		)
@@ -1298,6 +1316,15 @@
 			)
 		)
 		(property "Description" "Shunt resistor with Kelvin connections, US symbol"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6981159"
 			(at 133.35 60.96 0)
 			(effects
 				(font
