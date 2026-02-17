@@ -256,7 +256,7 @@
 							)
 						)
 					)
-					(number "G1"
+					(number "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -275,7 +275,7 @@
 							)
 						)
 					)
-					(number "G2"
+					(number "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -294,7 +294,7 @@
 							)
 						)
 					)
-					(number "G3"
+					(number "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -313,7 +313,7 @@
 							)
 						)
 					)
-					(number "G4"
+					(number "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5164,7 +5164,7 @@
 	)
 	(text "Series resistors\nembeded in USB driver"
 		(exclude_from_sim no)
-		(at 53.086 191.008 0)
+		(at 45.974 188.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6824,27 +6824,16 @@
 		)
 		(uuid "ff72cd33-65be-40d9-af95-121425955f08")
 	)
-	(hierarchical_label "CS_IMU_AG"
-		(shape output)
-		(at 172.72 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0a82bc11-db58-485c-a174-de17a67ea49d")
-	)
 	(hierarchical_label "CS_IMU_MAG"
 		(shape output)
-		(at 172.72 76.2 0)
+		(at 172.72 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "14d86510-3bd8-4fbb-a10d-2f0ef18da5d6")
+		(uuid "25bcc07a-743a-4d64-8211-61f958ebb7bc")
 	)
 	(hierarchical_label "CS_RADIO"
 		(shape output)
@@ -6892,14 +6881,14 @@
 	)
 	(hierarchical_label "CS_POWER"
 		(shape output)
-		(at 172.72 78.74 0)
+		(at 172.72 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "614b20a2-397f-463f-bd23-12e701b2683c")
+		(uuid "640fe30d-c5d4-4032-920d-ca2b207a1b1f")
 	)
 	(hierarchical_label "CS_ACCEL"
 		(shape input)
@@ -6977,6 +6966,17 @@
 			(justify right)
 		)
 		(uuid "e255b1db-7481-4785-82e4-8aaff6588d7e")
+	)
+	(hierarchical_label "CS_IMU_AG"
+		(shape output)
+		(at 172.72 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7f78404-8de2-4d7e-836f-c0ba4448124d")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -8646,7 +8646,7 @@
 		(pin "4"
 			(uuid "67ab92a2-e046-4851-a110-a34d899e9902")
 		)
-		(pin "G4"
+		(pin "SHIELD"
 			(uuid "25acdba7-2c7c-4ad2-88c8-bdf53720746b")
 		)
 		(pin "5"
@@ -8661,13 +8661,13 @@
 		(pin "7"
 			(uuid "058869e0-5485-4c7f-a7cf-950422057469")
 		)
-		(pin "G1"
+		(pin "SHIELD"
 			(uuid "369546de-8cb9-4eb1-a9ee-27bf67a3302c")
 		)
-		(pin "G2"
+		(pin "SHIELD"
 			(uuid "10b253cc-b6b4-4596-b576-b01fbf507bab")
 		)
-		(pin "G3"
+		(pin "SHIELD"
 			(uuid "a6a0659f-0a43-4aec-9081-e71247402c5d")
 		)
 		(pin "6"
@@ -11474,7 +11474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C367054.pdf"
 			(at 75.565 97.155 0)
 			(effects
 				(font
@@ -11483,7 +11483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
+		(property "Description" "SiT1552"
 			(at 81.28 100.33 0)
 			(effects
 				(font
