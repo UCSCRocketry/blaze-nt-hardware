@@ -1092,6 +1092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 226.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c"
@@ -1157,6 +1166,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 248.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 248.92 138.43 0)
 			(effects
 				(font
@@ -1365,6 +1383,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 226.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 226.06 138.43 0)
 			(effects
 				(font
@@ -1902,6 +1929,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 226.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Blaze-NT"
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c"
@@ -1958,6 +1994,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 226.06 149.86 0)
 			(effects
 				(font
@@ -2031,6 +2076,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 233.68 138.43 0)
 			(effects
 				(font
@@ -2239,6 +2293,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 241.3 138.43 0)
 			(effects
 				(font

@@ -729,6 +729,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ab23000-a6b8-4b21-ba08-ce3165421b91")
 		)
@@ -930,6 +939,15 @@
 			)
 		)
 		(property "LCSC" "C15639"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "MS561101BA03-50"
 			(at 111.76 73.66 0)
 			(effects
 				(font

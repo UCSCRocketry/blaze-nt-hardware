@@ -11,170 +11,6 @@
 		(comment 1 "Julia Barbera")
 	)
 	(lib_symbols
-		(symbol "ASCO_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y2"
-				(at 7.112 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "32.768KHz"
-				(at 7.112 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
-				(at 2.54 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
-				(at -5.715 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C1670130"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*Abracon*ASCO*1.6x1.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ASCO_1_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ASCO_1_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Avionics_Symbols:Micro_SD_Card"
 			(pin_names
 				(offset 1.016)
@@ -5179,6 +5015,12 @@
 		(uuid "006cf34b-e011-4b7c-82d2-c9946bb99b6f")
 	)
 	(junction
+		(at 81.28 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0769c4eb-b57a-4f2f-8250-3c5432eb081a")
+	)
+	(junction
 		(at 125.73 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5643,6 +5485,16 @@
 			(type default)
 		)
 		(uuid "3282be63-6611-4c4f-9d45-8604d8a6c78a")
+	)
+	(wire
+		(pts
+			(xy 81.28 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3358eb1a-d2fb-4a86-a841-fb7b4874e080")
 	)
 	(wire
 		(pts
@@ -6226,7 +6078,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 100.33) (xy 121.92 100.33)
+			(xy 81.28 93.98) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce505e6f-9109-4bb5-bbb0-0c695f428b29")
+	)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6236,7 +6098,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 121.92 93.98)
+			(xy 121.92 101.6) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7107,6 +6969,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c60f033-2e0d-48fa-b232-2e1b240980a2")
 		)
@@ -7177,6 +7048,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 157.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -7527,6 +7407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30329ce2-6fd3-4bf7-a100-f91262a2724c")
 		)
@@ -7605,6 +7494,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27e8f7a5-2eaf-442b-8f68-a6d82ad5c0c1")
 		)
@@ -7675,6 +7573,15 @@
 			)
 		)
 		(property "LCSC" "C19666"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -7827,6 +7734,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f404dfd4-d9ec-4202-95c2-2f7d79819abb")
 		)
@@ -7903,6 +7819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 233.68 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c53af6dd-85b5-428a-908d-68118dd6d7c1")
 		)
@@ -7920,7 +7845,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 81.28 92.71 0)
+		(at 81.28 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7928,7 +7853,7 @@
 		(dnp no)
 		(uuid "22078963-7464-4c41-9704-a4f385a78d22")
 		(property "Reference" "#PWR028"
-			(at 81.28 96.52 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7862,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 81.28 87.63 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +7870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 92.71 0)
+			(at 81.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +7879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 92.71 0)
+			(at 81.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +7888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 81.28 92.71 0)
+			(at 81.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,6 +7964,15 @@
 			)
 		)
 		(property "LCSC" "C160404"
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SM04B-SRSS-TB"
 			(at 198.12 135.89 0)
 			(effects
 				(font
@@ -8211,10 +8145,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a4bec7f-0ab8-4173-933d-8819c11b19f4")
 		(property "Reference" "Y1"
-			(at 102.87 71.0498 0)
+			(at 95.504 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +8155,7 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 102.87 73.5898 0)
+			(at 95.504 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,6 +8190,15 @@
 			)
 		)
 		(property "LCSC" "ASCO-8.000MHZ-EK-T3"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ASCO-8.000MHZ-EK-T3"
 			(at 91.44 77.47 0)
 			(effects
 				(font
@@ -8341,6 +8283,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 205.74 92.71 0)
 			(effects
 				(font
@@ -8560,6 +8511,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "825449f2-8682-4947-a735-12f5649c0ace")
 		)
@@ -8629,6 +8589,15 @@
 			)
 		)
 		(property "LCSC" "C164170"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "0472192001"
 			(at 236.22 95.25 0)
 			(effects
 				(font
@@ -8943,6 +8912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0989f466-8c3a-4554-ba37-e619c8109e77")
 		)
@@ -9077,6 +9055,15 @@
 			)
 		)
 		(property "LCSC" "C22787"
+			(at 233.68 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 233.68 124.46 90)
 			(effects
 				(font
@@ -9227,6 +9214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "B3U-1000P-B"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b2f872f-18cd-4852-aa6d-4523014e6fd7")
 		)
@@ -9296,6 +9292,15 @@
 			)
 		)
 		(property "LCSC" "C22787"
+			(at 113.03 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 113.03 91.44 90)
 			(effects
 				(font
@@ -9447,6 +9452,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 36.83 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc231e90-c4fe-46b2-82e8-5c1da215aad5")
 		)
@@ -9457,6 +9471,97 @@
 			(project ""
 				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/00b95cbe-d221-4e61-88f6-56852e922763"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:ASCO")
+		(at 91.44 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "751aa3ce-d82a-49ed-9666-539a37ab8b03")
+		(property "Reference" "Y2"
+			(at 98.298 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32.768kHz"
+			(at 98.298 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-327MV.pdf"
+			(at 85.725 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XTAL OSC XO 32.7680KHZ CMOS SMD"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "50-ECS-327MV-CN-TRCT-ND"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ad37313-b5bc-4b7b-a7f0-f71b4631f5ff")
+		)
+		(pin "2"
+			(uuid "d1320a71-e0c0-48b6-a91d-66fb9dd76706")
+		)
+		(pin "4"
+			(uuid "3670886e-10ea-4eb4-9ec8-a09418e04fdd")
+		)
+		(pin "1"
+			(uuid "c5f38521-a79d-418f-a28d-7a0dc3fcea9b")
+		)
+		(instances
+			(project "Blaze-NT"
+				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/00b95cbe-d221-4e61-88f6-56852e922763"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -9515,6 +9620,15 @@
 			)
 		)
 		(property "LCSC" "C2907044"
+			(at 52.07 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 52.07 171.45 90)
 			(effects
 				(font
@@ -9594,6 +9708,15 @@
 			)
 		)
 		(property "LCSC" "C97521"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "W25Q128JVSIM TR"
 			(at 236.22 48.26 0)
 			(effects
 				(font
@@ -9688,6 +9811,15 @@
 			)
 		)
 		(property "LCSC" "C98220"
+			(at 251.46 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 251.46 95.25 90)
 			(effects
 				(font
@@ -9972,6 +10104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0391cbc1-f16d-42af-87f8-9e18604d1cf6")
 		)
@@ -10049,6 +10190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "B3U-1000P-B"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "980d0adf-fc55-4309-8efc-4e8aa133520a")
 		)
@@ -10066,7 +10216,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 107.95 0)
+		(at 91.44 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10075,7 +10225,7 @@
 		(fields_autoplaced yes)
 		(uuid "981ec560-1ff6-4a99-ad48-729585c6902e")
 		(property "Reference" "#PWR034"
-			(at 81.28 114.3 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 113.03 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 107.95 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 107.95 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +10260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 107.95 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,6 +10339,15 @@
 			)
 		)
 		(property "LCSC" "C7519"
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "USBLC6-2SC6"
 			(at 60.96 161.29 0)
 			(effects
 				(font
@@ -10345,6 +10504,15 @@
 			)
 		)
 		(property "LCSC" "C96446"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -10625,6 +10793,15 @@
 			)
 		)
 		(property "LCSC" "C60420"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "STM32F411CEU6"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -10982,6 +11159,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 52.07 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92b3f367-86d8-43fd-b712-bc9e857fb099")
 		)
@@ -11192,6 +11378,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "150505M173300"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "931ffde8-b28b-4030-bbe5-bc7d6b5b41af")
 		)
@@ -11280,6 +11475,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 251.46 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd29987b-ff78-4eb1-8c7d-081ffaefdd4b")
 		)
@@ -11350,6 +11554,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 138.43 40.64 0)
 			(effects
 				(font
@@ -11440,89 +11653,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ASCO_1")
-		(lib_id "Oscillator:ASCO")
-		(at 81.28 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c587cee0-2521-4ad0-bfb8-93aa8aaa0d10")
-		(property "Reference" "Y2"
-			(at 88.392 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768KHz"
-			(at 88.392 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Avionics_Feet:OSC_SIT1532AI-J4-DCC-32.768D"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C367054.pdf"
-			(at 75.565 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SiT1552"
-			(at 81.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C367054"
-			(at 81.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4ecd7b89-212a-4bc0-ae3a-aad5e490dace")
-		)
-		(pin "2"
-			(uuid "5e7dea6e-75d3-4844-98ed-3186cbf6368e")
-		)
-		(pin "4"
-			(uuid "8eb00c15-c1f2-46a8-8353-f5b75add9d50")
-		)
-		(pin "1"
-			(uuid "8d32754c-5169-45ef-b253-e06962d65923")
-		)
-		(instances
-			(project ""
-				(path "/2c2eadf0-5503-4531-8753-1a232087fe8c/00b95cbe-d221-4e61-88f6-56852e922763"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
 		(at 95.25 154.94 0)
 		(unit 1)
@@ -11578,6 +11708,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 95.25 154.94 0)
 			(effects
 				(font
@@ -11676,6 +11815,15 @@
 			)
 		)
 		(property "LCSC" "C2994781"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "LTST-C191KGKT"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -11818,6 +11966,15 @@
 			)
 		)
 		(property "LCSC" "C22787"
+			(at 233.68 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 233.68 129.54 90)
 			(effects
 				(font
@@ -12101,6 +12258,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "USB4105-GF-A"
+			(at 33.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B6"
 			(uuid "bbda05dd-3603-491d-ad93-e588bc70e3a3")
 		)
@@ -12219,6 +12385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e232c4f9-8097-4e16-8b72-3f2cbe4d39e4")
 		)
@@ -12287,6 +12462,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 38.1 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 38.1 85.09 90)
 			(effects
 				(font
