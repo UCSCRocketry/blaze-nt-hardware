@@ -6099,6 +6099,7 @@
 		(property "Reference" "Y2"
 			(at 0.025 -1.875 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d2415b7b-6d92-4e37-b868-d7772fb37ee9")
 			(effects
 				(font
@@ -24663,8 +24664,8 @@
 			)
 		)
 	)
-	(gr_text "BLAZE NT"
-		(at 152.781 119.888 0)
+	(gr_text "BLAZE NT B"
+		(at 152.5016 119.8372 0)
 		(layer "F.SilkS")
 		(uuid "61933109-d575-44c3-a012-a404fd118025")
 		(effects
