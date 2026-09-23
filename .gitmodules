@@ -1,3 +1,0 @@
-[submodule "avionics-library"]
-	path = avionics-library
-	url = git@github.com:UCSCRocketry/avionics-library.git

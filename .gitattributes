@@ -1,0 +1,4 @@
+Libraries/Avionics/*.kicad_sym text eol=lf
+Libraries/Avionics/Avionics_Feet.pretty/*.kicad_mod text eol=lf
+Libraries/Avionics/Models/*.step binary
+Libraries/Avionics/Models/*.stp binary
