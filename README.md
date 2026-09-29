@@ -135,11 +135,6 @@ git clone --recurse-submodules <repository-url>
 # Or initialize submodules after cloning
 git submodule update --init --recursive
 
-# If submodule isn't working, clone directly into avionics-library folder:
-cd avionics-library
-git clone https://github.com/UCSCRocketry/avionics-library.git .
-cd ..
-
 # Create feature branch for subsystem changes
 git checkout -b feature/power-improvements
 
@@ -161,7 +156,7 @@ git push origin feature/power-improvements
 
 1. Clone the repository with submodules:
    ```bash
-   git clone --recurse-submodule https://github.com/UCSCRocketry/blaze-nt-hardware.git
+   git clone --recurse-submodules https://github.com/UCSCRocketry/blaze-nt-hardware.git
    ```
 
 2. Open KiCad
@@ -188,9 +183,7 @@ This project uses a custom component library stored as a git submodule:
 To update the library:
 
 ```bash
-cd avionics-library
-git pull origin main
-cd ..
+git submodule update --remote avionics-library
 git add avionics-library
 git commit -m "Update avionics library"
 ```
@@ -259,4 +252,3 @@ permission.
 
 **Note**: This hardware has been flight-tested on prototype vehicles. Always
 perform thorough ground testing before flight use.
-
